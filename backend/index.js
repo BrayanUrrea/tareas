@@ -1,6 +1,6 @@
 const express = require('express');
 const app =express();
-const bd = require('../bd/bd')
+const bd = require('./bd/bd')
 
 
 app.use(express.json())
